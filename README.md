@@ -2,6 +2,8 @@
 This project shows designing an AWS architecture for data analytics infrastructure to ingest, store, and visualize clickstream data. 
 In this architecture, API Gateway will be used to ingest clickstream data. The Lambda function will then transforms the data and sends it to Kinesis Data Firehose. The Firehose delivery stream is used to place all files in Amazon S3 and Amazon Athena will be used to query the files. Finally, Amazon QuickSight is used to transform data into graphics.
 
+![DA1](https://user-images.githubusercontent.com/110143245/222317064-0a27bf88-349d-4cad-b200-6d4dd8108b21.png)
+
 # Cloud Tools Used;
 - _AWS Identity and Access Management (IAM) policy and user_
 - _Amazon Simple Storage Service bucket (S3)_
